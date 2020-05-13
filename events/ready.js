@@ -25,9 +25,9 @@ module.exports = (client) => {
 
   client.user.setActivity(`${activity.random()}`, {type: 'PLAYING'});
 
-  setInterval(() => {
-    client.user.setActivity(`${activity.random()}`, {type: 'PLAYING'});
-  }, 1000 * 60 * 3);
+  // setInterval(() => {
+  //   client.user.setActivity(`${activity.random()}`, {type: 'PLAYING'});
+  // }, 1000 * 60 * 3);
 }
 
 Array.prototype.random = function() {

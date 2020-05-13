@@ -6,5 +6,6 @@
 	"password": "PASSWORD",
 	"serverId": "MAIN SERVER ID",
 	"contestChat": "MAIN CONTEST CHAT ID",
-	"contestRole": "CONTEST ROLE ID"
+	"contestRole": "CONTEST ROLE ID",
+	"databaseType": "DATABASE TYPE(SQLITE or MYSQL)"
 }
